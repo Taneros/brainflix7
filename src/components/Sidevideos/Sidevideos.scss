@@ -1,0 +1,34 @@
+@import url(../../styles/partials/_globals.scss);
+@import "../../styles/partials/_colors.scss";
+@import "../../styles/partials/_fonts.scss";
+
+.sidevideos{
+    margin-top: 1rem;
+    &__header {
+        margin-left: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid $secondary-silver;
+        }
+}
+
+// TABLET STYLES
+
+@media ((min-width: 768px) and (max-width: 1279px)){
+    .sidevideos{
+        &__header {
+        margin-left: 1.5rem;
+        }
+    }
+}
+
+// DESKTOP STYLES
+
+@media screen and (min-width: 1280px) {
+    .sidevideos{
+        &__header {
+        margin-left: 1.5rem;
+        border-top: none;
+        }
+    }
+}

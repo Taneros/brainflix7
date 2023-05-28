@@ -1,0 +1,82 @@
+@import "../../styles/partials/_colors.scss";
+@import "../../styles/partials/_fonts.scss";
+@import "../../styles/partials/_globals";
+
+.comment-item {
+    margin: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-top: 1px solid $secondary-silver;
+
+    &__profile {
+        min-width: 2.25rem;
+        height: 2.25rem;
+        background-color: $primary-silver;
+        border-radius: 50%;
+    }
+
+    &__container {
+        width: 100%;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    &__delete {
+        width: 0.8rem;
+        height: 0.8rem;
+        
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__button {
+        margin-left: calc(100% - 1.5rem);
+        border: none;
+        background-color: white;
+    }
+}
+
+
+// TABLET STYLES
+
+@media ((min-width: 768px) and (max-width: 1279px)) {}
+
+.comment-item {
+    margin: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-top: 1px solid $secondary-silver;
+
+    &__profile {
+        min-width: 2.5rem;
+        height: 2.5rem;
+    }
+
+}
+
+// DESKTOP STYLES
+
+@media screen and (min-width: 1280px) {
+    .comment-item {
+        margin: 1.5rem;
+        margin-right: 0;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        border-top: 1px solid $secondary-silver;
+
+        &__profile {
+            min-width: 2.5rem;
+            height: 2.5rem;
+        }
+
+    }
+}
