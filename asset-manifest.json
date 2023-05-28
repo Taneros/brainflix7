@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BrainFlix/static/css/main.322c5a4f.css",
+    "main.js": "/BrainFlix/static/js/main.f57d2e44.js",
+    "static/js/787.2065d49e.chunk.js": "/BrainFlix/static/js/787.2065d49e.chunk.js",
+    "static/media/BrainFlix-logo.svg": "/BrainFlix/static/media/BrainFlix-logo.e2aad4fb297e98c251c75ff31699a7af.svg",
+    "static/media/AvenirNextLTPro-Demi.otf": "/BrainFlix/static/media/AvenirNextLTPro-Demi.d36119d274e005dc46b8.otf",
+    "static/media/AvenirNextLTPro-Regular.otf": "/BrainFlix/static/media/AvenirNextLTPro-Regular.7c651cdf1e3ed9825d1a.otf",
+    "static/media/search.svg": "/BrainFlix/static/media/search.b2de04bd644372446a50.svg",
+    "index.html": "/BrainFlix/index.html",
+    "static/media/upload.svg": "/BrainFlix/static/media/upload.5883ade39f5afef46cae.svg",
+    "static/media/views.svg": "/BrainFlix/static/media/views.8b6d21c6dac0adba201d39b7392ea6cf.svg",
+    "static/media/publish.svg": "/BrainFlix/static/media/publish.9004aa72e162afad77af.svg",
+    "static/media/likes.svg": "/BrainFlix/static/media/likes.246cd8f4356b27c4d0cb18d1be8605d2.svg",
+    "static/media/add_comment.svg": "/BrainFlix/static/media/add_comment.26bc7a200a77fd1eb3c8.svg",
+    "static/media/AvenirNextLTPro-Bold.otf": "/BrainFlix/static/media/AvenirNextLTPro-Bold.b2f0dd63a32f2cfd6983.otf",
+    "main.322c5a4f.css.map": "/BrainFlix/static/css/main.322c5a4f.css.map",
+    "main.f57d2e44.js.map": "/BrainFlix/static/js/main.f57d2e44.js.map",
+    "787.2065d49e.chunk.js.map": "/BrainFlix/static/js/787.2065d49e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.322c5a4f.css",
+    "static/js/main.f57d2e44.js"
+  ]
+}
