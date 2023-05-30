@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import App from "./App";
-import MainLayout from "./pages/MainLayout";
 import ErrorPage from "./pages/ErrorPage";
+import MainLayout from "./pages/MainLayout";
 import UploadPage from "./pages/Upload/UploadPage";
 import reportWebVitals from "./reportWebVitals";
 
